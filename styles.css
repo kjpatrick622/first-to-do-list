@@ -1,0 +1,58 @@
+*,
+::before,
+::after {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #eee;
+    box-sizing: border-box;
+}
+
+.coolTitle {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 40px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: tomato;
+    text-shadow:
+        -1px -1px 0 firebrick,
+        -2px -2px 0 firebrick,
+        -3px -3px 0 firebrick,
+        -4px -4px 0 firebrick,
+        -5px -5px 0 firebrick,
+        -6px -6px 0 firebrick,
+        -7px -7px 0 firebrick,
+        -8px -8px 0 firebrick,
+        -30px 20px 40px dimgrey;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+#userinput {
+    border: 3px solid lightgray;
+    border-radius: 50px;
+    padding: 0.5em 1em;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+button {
+    margin-left: 1em;
+    color: lightgray;
+    background-color: darkgray;
+    border: 3px solid lightgray;
+    border-radius: 50px;
+}
+
+.delButton {
+    background-color: red;
+}
+
+button:hover {
+    cursor: pointer;
+}
